@@ -12,6 +12,10 @@ nav {
   font-size: 35px;
 }
 
+nav ul {
+	padding-right: 35px;
+}
+
 li {
   display: inline;
   text-decoration: underline;
