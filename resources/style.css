@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+}
+.center {
+  text-align: center;
+}
+
+nav {
+  font-size: 35px;
+}
+
+li {
+  display: inline;
+  text-decoration: underline;
+  padding: 10px 15px;
+}
+
+#title {
+  font-size: 60px;
+}
+
+#quote p {
+	text-align: center;
+	font-size: 80px;
+	font-style: italic;
+}
+
+header {
+	background-color: #023047;
+	color: white;
+}
