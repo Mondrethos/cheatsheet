@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="center">
-      <h1 id="title">Cheatsheet</h1>
+      <h1 id="title" class="oswald">Cheatsheet</h1>
       <nav>
         <ul>
           <li>Images</li>
@@ -16,17 +16,33 @@
           <li>Fonts</li>
         </ul>
       </nav>
-      <div id="quote">
+      <div id="quote" class="center">
         <p>Coding is a collaboration between humans and machines</p>
       </div>
     </header>
     <main>
       <div id="images">
-        <h2 class="center">Images</h2>
+        <h2 class="center oswald">Images</h2>
         <p class="center big">
           Adding images to your html code, sites, and projects is as simple as
           using the <span class="tag">&lt;img&gt;</span> tag.
         </p>
+        <table border="1" class="dotted-table tcenter">
+          <tr>
+            <th>Tag</th>
+            <th>Formatted</th>
+            <th>Example</th>
+          </tr>
+          <tr>
+            <td>&lt;img&gt;</td>
+            <td class="center">&lt;img src="image.jpg" alt="Description" /&gt;</td>
+            <td class="center"><img src="resources/images/heartemoji.png" id="imgexample" alt="Heart Emoji" /></td>
+          </tr>
+        </table>   
+        <ol class="center big">
+          <li class="center">You always need a <span class="tag">src</span> attribute to point to the source and location of your image, whether it's local or an online URL.</li>
+          <li class="center>">The alt altribute is considered webstandard and is used to provide an image description for screen readers and in the chance the image breaks, a placeholder text. It helps and impacts other things such as SEO as well.</li>
+        </ol>  
       </div>
     </main>
   </body>

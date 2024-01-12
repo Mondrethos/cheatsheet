@@ -6,8 +6,17 @@ body {
   padding: 0;
 }
 
+.oswald {
+  font-family: Oswald, sans-serif;
+}
+
 .center {
   text-align: center;
+}
+
+.tcenter {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav {
@@ -18,7 +27,7 @@ nav ul {
   padding-right: 35px;
 }
 
-li {
+nav li {
   display: inline;
   text-decoration: underline;
   padding: 10px 15px;
@@ -26,12 +35,10 @@ li {
 
 #title {
   font-size: 100px;
-  font-family: Oswald;
   font-style: normal;
 }
 
 #quote p {
-  text-align: center;
   font-size: 80px;
   font-style: italic;
 }
@@ -53,6 +60,7 @@ main h2 {
 
 #images {
   background-color: #ffb703;
+  color: #023047
 }
 
 .big {
@@ -61,4 +69,19 @@ main h2 {
 
 .tag {
   font-size: 50px;
+}
+
+.dotted-table, th, td, tr {
+  border: 3px dotted #023047;
+  border-collapse: collapse;
+  font-size: 25px;
+}
+
+#imgexample {
+  width: 35px;
+  padding-top: 5px;
+}
+
+#images ol {
+  list-style-position: inside;
 }
