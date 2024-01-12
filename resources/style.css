@@ -60,7 +60,7 @@ main h2 {
 
 #images {
   background-color: #ffb703;
-  color: #023047
+  color: #023047;
 }
 
 .big {
@@ -71,7 +71,10 @@ main h2 {
   font-size: 50px;
 }
 
-.dotted-table, th, td, tr {
+.dotted-table,
+th,
+td,
+tr {
   border: 3px dotted #023047;
   border-collapse: collapse;
   font-size: 25px;
