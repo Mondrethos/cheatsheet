@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 html,
 body {
@@ -15,7 +15,7 @@ nav {
 }
 
 nav ul {
-	padding-right: 35px;
+  padding-right: 35px;
 }
 
 li {
@@ -25,10 +25,9 @@ li {
 }
 
 #title {
-  font-size: 60px;
-	font-family: "Oswald" sans-serif;
-	font-style: normal;
-	font-weight: 400;
+  font-size: 100px;
+  font-family: Oswald;
+  font-style: normal;
 }
 
 #quote p {
@@ -43,4 +42,23 @@ header {
   background-color: #023047;
   color: white;
   overflow: auto;
+}
+
+main h2 {
+  font-size: 60px;
+  margin: 0;
+  padding-top: 60px;
+  color: #023047;
+}
+
+#images {
+  background-color: #ffb703;
+}
+
+.big {
+  font-size: 30px;
+}
+
+.tag {
+  font-size: 50px;
 }
