@@ -89,3 +89,7 @@ tr {
 #images ol {
   list-style-position: inside;
 }
+
+.mono {
+  font-family: monospace;
+}
