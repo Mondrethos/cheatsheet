@@ -18,7 +18,7 @@ body {
   font-family: Oswald, sans-serif;
 }
 
-.center {
+.center { 
   text-align: center;
 }
 
@@ -69,8 +69,12 @@ main h2 {
 #images {
   background-color: #ffb703;
   color: #023047;
+  overflow: auto;
 }
 
+#colors {
+  background-color: #FB8500
+}
 .s30 {
   font-size: 30px;
 }
