@@ -63,6 +63,9 @@ main h2 {
   font-size: 60px;
   margin: 0;
   padding-top: 60px;
+}
+
+#images h2{
   color: #023047;
 }
 
@@ -89,7 +92,7 @@ td,
 tr {
   border: 3px dotted #023047;
   border-collapse: collapse;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #imgexample {
@@ -107,4 +110,13 @@ tr {
 
 .s20 {
   font-size: 20px;
+}
+
+#colors {
+  color: #023047;
+}
+
+td:hover {
+  color: #ffb703;
+  background-color: #023047;
 }
