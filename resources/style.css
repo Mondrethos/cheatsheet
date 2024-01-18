@@ -132,3 +132,7 @@ table caption {
   text-align: left;
   padding-bottom: 3px;
 }
+
+#colors table {
+  max-width: 1200px;
+}
