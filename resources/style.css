@@ -127,3 +127,9 @@ td:hover {
   color: #ffb703;
   background-color: #023047;
 }
+
+table caption {
+  text-align: left;
+  text-decoration: underline;
+  padding-bottom: 3px;
+}
