@@ -142,6 +142,7 @@ table caption {
   color: #023047;
 }
 
-nav li a:visited {
+
+nav li a, nav li a:visited {
   color: white;
 }
