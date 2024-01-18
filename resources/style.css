@@ -141,3 +141,7 @@ table caption {
   background-color: #219EBC;
   color: #023047;
 }
+
+nav li a:visited {
+  color: white;
+}
