@@ -102,6 +102,13 @@ tr {
 
 #images ol {
   list-style-position: inside;
+  padding-left: 0;
+}
+
+#images ol li {
+  text-align: left;
+  display: list-item;
+  padding-left: 50px;
 }
 
 .mono {
