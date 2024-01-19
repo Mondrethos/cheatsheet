@@ -100,12 +100,12 @@ tr {
   padding-top: 5px;
 }
 
-#images ol {
+#images ol, #fonts ul {
   list-style-position: inside;
   padding-left: 0;
 }
 
-#images ol li {
+#images ol li, #fonts ul li {
   text-align: left;
   display: list-item;
   padding-left: 25px;
@@ -140,9 +140,24 @@ table caption {
 #fonts {
   background-color: #219EBC;
   color: #023047;
+  overflow: auto;
 }
 
 
 nav li a, nav li a:visited {
   color: white;
 }
+
+footer {
+  background-color: black;
+  color: #ffb703
+  }
+
+  .footeremoji {
+    width: 15px;
+  }
+
+  footer section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  } 
