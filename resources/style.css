@@ -133,7 +133,7 @@ table caption {
   padding-bottom: 3px;
 }
 
-#colors table {
+#colors table, #fonts table {
   max-width: 1200px;
 }
 
